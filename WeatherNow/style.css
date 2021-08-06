@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    letter-spacing: 1.5px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    background: #67B26F;
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+    background: linear-gradient(to right, #4ca2cd, #67B26F);
+}
+
+.card {
+    width: 448px;
+    min-height: 448px;
+}
+
+.card-title {
+    font-size: 35px;
+}
+
+.container {
+    position: relative;
+}
+
+.container #pre-search {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 25%;
+    transform: translateY(20%);
+    opacity: .2;
+}
+
+.container #pre-spinner {
+    transform: translateY(300%);
+    opacity: .6;
+}
+
+.container #err {
+    transform: translateY(170%);
+}
+
+.container #err h4 {
+    color: red;
+}
+
+.container #city-name {
+    font-size: 30px;
+}
+
+.container #city-name #region {
+    font-size: 15px;
+}
+
+.content {
+    height: 200px;
+}
+
+.content .png,
+.content .main {
+    width: 50%;
+    height: 100%;
+}
+
+.content .main h3,
+.content .main p {
+    margin: 0;
+}
+
+.content .main p {
+    
+    font-size: 17px;
+}
+
+.content .png img {
+    margin-right: 1.8rem;
+}
+
+.content .main h3 {
+    font-weight: 500;
+}
+
+.content .main #status {
+    font-size: 20px;
+}
+
+.content .main #temp {
+    font-size: 30px;
+}
+
+.bord {
+    border: 1px solid red;
+}
